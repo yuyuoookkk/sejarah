@@ -1,26 +1,38 @@
 @import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #1a1614;
+  /* bali-dark */
+  --foreground: #e8dfc8;
+  /* bali-sand */
+
+  --color-bali-dark: #1a1614;
+  --color-bali-gold: #c6a868;
+  --color-bali-red: #8a2e22;
+  --color-bali-sand: #e8dfc8;
 }
 
-@theme inline {
+@theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-bali-dark: var(--color-bali-dark);
+  --color-bali-gold: var(--color-bali-gold);
+  --color-bali-red: var(--color-bali-red);
+  --color-bali-sand: var(--color-bali-sand);
+
+  --font-serif: var(--font-playfair);
+  --font-sans: var(--font-inter);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), sans-serif;
+  overflow-x: hidden;
+}
+
+.font-serif {
+  font-family: var(--font-serif), serif;
 }
