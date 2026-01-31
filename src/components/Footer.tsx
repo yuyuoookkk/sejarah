@@ -19,9 +19,9 @@ export default function Footer() {
                         <h3 className="text-lg font-bold text-white mb-6 uppercase tracking-wider">Navigasi</h3>
                         <ul className="space-y-4 text-gray-400">
                             <li><a href="#beranda" className="hover:text-bali-gold transition-colors">Beranda</a></li>
-                            <li><a href="#sejarah" className="hover:text-bali-gold transition-colors">Sejarah</a></li>
-                            <li><a href="#tokoh" className="hover:text-bali-gold transition-colors">Timeline</a></li>
-                            <li><a href="#galeri" className="hover:text-bali-gold transition-colors">Galeri</a></li>
+                            <li><a href="#sejarah" className="hover:text-bali-gold transition-colors">Timeline</a></li>
+                            <li><a href="#tokoh" className="hover:text-bali-gold transition-colors">Tokoh-Tokoh</a></li>
+                            <li><a href="#galeri" className="hover:text-bali-gold transition-colors">Peninggalan-Peninggalan</a></li>
                         </ul>
                     </div>
 
@@ -30,8 +30,10 @@ export default function Footer() {
                         <h3 className="text-lg font-bold text-white mb-6 uppercase tracking-wider">Kontak</h3>
                         <ul className="space-y-4 text-gray-400">
                             <li className="flex items-center gap-3"><MapPin size={18} /> Denpasar, Bali</li>
-                            <li className="flex items-center gap-3"><Mail size={18} /> info@sejarahbali.id</li>
-                            <li className="flex items-center gap-3"><Instagram size={18} /> @sejarahbali</li>
+                            <li className="flex items-center gap-3"><a href="https://www.instagram.com/bryanmarius_?igsh=YTN4N3cyMXBjc3Ru"className="flex items-center gap-3"><Instagram size={18} />@bryanmarius_</a></li>
+                            <li className="flex items-center gap-3"><a href="https://www.instagram.com/rew.blend?igsh=MW94OXlkN2lnOGlyaw=="className="flex items-center gap-3"><Instagram size={18} />@rew.blend</a></li>
+                            <li className="flex items-center gap-3"><a href="https://www.instagram.com/dhodo.jpg?igsh=MTkyN2hpZnRjaWhyNQ=="className="flex items-center gap-3"><Instagram size={18} />@dhodo.jpg</a></li>
+                            <li className="flex items-center gap-3"><a href="https://www.instagram.com/yukipande__?igsh=MTlkN2QxdWZzcXE0Ng=="className="flex items-center gap-3"><Instagram size={18} />@yukipande__</a></li>
                         </ul>
                     </div>
                 </div>

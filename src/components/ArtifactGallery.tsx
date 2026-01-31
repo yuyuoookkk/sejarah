@@ -18,7 +18,7 @@ export default function ArtifactGallery() {
     return (
         <section id="galeri" className="py-12 bg-zinc-900 overflow-hidden">
             <div className="container mx-auto px-6 mb-6 text-center">
-                <h2 className="text-2xl md:text-4xl font-serif text-bali-gold">Galeri Warisan</h2>
+                <h2 className="text-2xl md:text-4xl font-serif text-bali-gold">Peninggalan-Peninggalan</h2>
                 <p className="text-gray-400 mt-2">Saksi bisu perjuangan masa lampau.</p>
             </div>
 
