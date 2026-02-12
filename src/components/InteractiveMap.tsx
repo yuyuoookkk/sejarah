@@ -3,6 +3,9 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
 
+// IMPORT CSS DI SINI (WAJIB)
+import "leaflet/dist/leaflet.css";
+
 // Dynamically import Leaflet components to avoid SSR issues
 const MapContainer = dynamic(
     () => import("react-leaflet").then((mod) => mod.MapContainer),
@@ -64,8 +67,8 @@ export default function InteractiveMap() {
 
     useEffect(() => {
         setIsClient(true);
-        // Import Leaflet CSS and create custom icon on client side
-        import("leaflet/dist/leaflet.css");
+
+        // FIX: jangan import leaflet CSS di sini
         import("leaflet").then((L) => {
             const icon = new L.Icon({
                 iconUrl: "data:image/svg+xml;base64," + btoa(`
